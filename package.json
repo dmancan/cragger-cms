@@ -9,7 +9,8 @@
     "parse": "~1.8.0",
     "parse-server": "*",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "spawn-sync": "^1.0.15"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
