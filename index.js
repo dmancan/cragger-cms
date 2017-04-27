@@ -10,7 +10,7 @@ var app = express();
 var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI;
 
 if (!databaseUri) {
-  console.log('DATABASE_URI not specified, falling back to localhost.');
+  console.log('DATABASE_URI not specified, falling back to localhost for testing.');
 }
 
 //mongodb://localhost:27017/dev
