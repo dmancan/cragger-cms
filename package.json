@@ -10,15 +10,16 @@
     "parse-server": "*",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-scripts": "0.9.5",
     "spawn-sync": "^1.0.15"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
 }
