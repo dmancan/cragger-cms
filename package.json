@@ -5,6 +5,9 @@
   "dependencies": {
     "ejs": "2.5.6",
     "express": "4.15.2",
+    "kerberos": "~0.0.x",
+    "parse": "~1.8.0",
+    "parse-server": "*",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
